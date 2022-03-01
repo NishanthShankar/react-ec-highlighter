@@ -55,3 +55,6 @@ test('return two object for two matches', () => {
     { text: 'ing', match: false }
   ])
 })
+
+// styles is null
+// styles is not object
