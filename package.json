@@ -1,14 +1,51 @@
 {
   "name": "react-ec-highlighter",
-  "version": "1.0.3",
-  "description": "",
+  "version": "1.1.0",
+  "description": "React component to highlight any text in a text. Best used to highlight search results",
   "main": "dist/bundle.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "react",
+    "reactjs",
+    "react-component",
+    "highlighter",
+    "highlight",
+    "text",
+    "words",
+    "matches",
+    "substring",
+    "occurrences",
+    "search"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NishanthShankar/react-ec-highlighter"
+  },
+  "author": "Brian Vaughn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NishanthShankar/react-ec-highlighter/issues"
+  },
+  "homepage": "https://github.com/NishanthShankar/react-ec-highlighter#readme",
+  "standard": {
+    "parser": "babel-eslint",
+    "ignore": [
+      "build",
+      "dist",
+      "node_modules"
+    ],
+    "global": [
+      "afterAll",
+      "afterEach",
+      "beforeAll",
+      "beforeEach",
+      "describe",
+      "it",
+      "jasmine"
+    ]
+  },
   "dependencies": {
     "ec-highlighter-core": "^1.0.4",
     "prop-types": "^15.8.1"
@@ -16,7 +53,9 @@
   "devDependencies": {
     "jest": "^27.5.1",
     "react": "^17.0.2",
-    "webpack": "^5.69.1",
-    "webpack-cli": "^4.9.2"
+    "webpack": "^5.69.1"
+  },
+  "peerDependencies": {
+    "react": "^0.14.0 || ^15.0.0 || ^16.0.0-0 || ^17.0.0-0"
   }
 }

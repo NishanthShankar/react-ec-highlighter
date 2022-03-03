@@ -1,4 +1,5 @@
-const getParts = require('./index')
+const Highlighter = require('./index')
+const getParts = require('ec-highlighter-core')
 
 test('return null for empty string', () => {
   expect(getParts()).toBe(null)

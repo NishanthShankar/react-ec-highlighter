@@ -8,7 +8,7 @@ module.exports = [
       path: __dirname + '/dist',
       pathinfo: true,
       sourcePrefix: '',
-      filename: 'test.js',
+      filename: 'bundle.js',
       libraryTarget: 'umd'
     },
     optimization: {

@@ -17,10 +17,10 @@ const defaultHighlightStyle = {
   color: 'black'
 }
 
-const getChildren = (array, styles) => {
+function getChildren (array, styles = {}) {
   return array.map((item, index) => {
-    const style = styles?.normalStyle
-    const className = styles?.normalClassName
+    const style = styles.normalStyle
+    const className = styles.normalClassName
     const props = { key: `${item.text}_${index}`, style, className }
     if (item.match) {
       props.style =
@@ -56,4 +56,5 @@ function ECHighlighter ({
     })
   )
 }
+
 module.exports = ECHighlighter
