@@ -6,11 +6,11 @@ React component to highlight any text in a text. Best used to highlight search r
 
 ## Installation
 ```
-yarn add react-ec-highlight
+yarn add react-ec-highlighter
 ```
 
 ```
-npm i --save react-ec-highlight
+npm i --save react-ec-highlighter
 ```
 
 Check out a demo [here](https://nishanth-jitera.web.app).
