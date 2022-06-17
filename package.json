@@ -1,6 +1,6 @@
 {
   "name": "react-ec-highlighter",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "React component to highlight any text in a text. Best used to highlight search results",
   "main": "dist/bundle.js",
   "scripts": {
